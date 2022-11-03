@@ -1,3 +1,3 @@
 # MobileApp
 
-Git repository for the 3D Animation subject.
+Git repository for the Mobile Devices subject.
