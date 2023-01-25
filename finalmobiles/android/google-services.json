@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924063349501",
+    "project_id": "finalexam-carlosarnau",
+    "storage_bucket": "finalexam-carlosarnau.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924063349501:android:733a9061c60bf0642b1c94",
+        "android_client_info": {
+          "package_name": "org.carlosam.finalmobiles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924063349501-ira5eus7oemusopjt46dikjp6ti27leh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWF0wJYB4ZSMwn7CQrgTC2YbCJuR7chsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924063349501-ira5eus7oemusopjt46dikjp6ti27leh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
