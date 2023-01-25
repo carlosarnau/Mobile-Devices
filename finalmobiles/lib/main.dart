@@ -2,9 +2,13 @@ import 'package:finalmobiles/screens/FirstScreen.dart';
 import 'package:finalmobiles/screens/SecondScreen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:finalmobiles/firebase_options.dart';
 
 void main() async {
-  await Firebase.initializeApp();
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(
     const AppScreens(),
   );
@@ -25,4 +29,4 @@ class AppScreens extends StatelessWidget {
 // Needed to let firebase run
 // flutter pub add firebase_core
 // dart pub global activate flutterfire_cli
-// flutterfire configure
+// flutterfire configure (només funciona al nu>)
